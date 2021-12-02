@@ -36,7 +36,7 @@ How many measurements are larger than the previous measurement?
 
 */
 
-nums = document.querySelector('pre').textContent.split('\n').map(Number);
+let nums = document.querySelector('pre').textContent.split('\n').map(Number);
 let counter = 0;
 
 for (let i = 0; i < nums.length; i++) {
@@ -87,10 +87,10 @@ Consider sums of a three-measurement sliding window. How many sums are larger th
 let nums = document.querySelector('pre').textContent.split('\n').map(Number);
 
 let counter2 = 0;
-for (let i = 3; i <= nums.length; i=i+3) {
+for (let i = 3; i <= nums.length; i=i+1) {
     let a = nums[i-3] + nums[i-2] + nums[i-1];
     let b = nums[i-2] + nums[i-1] + nums[i];
-    if (a < b) {
+    if (b > a) {
       counter2++;
     }
   }
