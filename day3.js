@@ -255,7 +255,9 @@ Garth is getting... 3205
 
 Too high = 2,904,944
 Too low =  2,842,560
+
 2845944
+
 Incorrect = 2,901,360
  >> Didn't say high or low. :(
 
