@@ -15,7 +15,7 @@ let fishes = document.querySelector('pre').textContent.split(',').map(Number);
 // 350149
 
 //grows too fast.  The number of iterations is too high.  So instead track how many are
-// at each number of days.
+// at each number of days?
 
 const daysLeft = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 
